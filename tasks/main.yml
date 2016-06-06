@@ -1,0 +1,3 @@
+---
+# tasks file for sa-inject-keys
+  - include: use/__provision_keys.yml

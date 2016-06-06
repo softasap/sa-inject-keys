@@ -1,0 +1,4 @@
+[submodule "roles/sa-inject-keys"]
+        path = roles/sa-inject-keys
+        url = https://github.com/softasap/sa-inject-keys.git
+

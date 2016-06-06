@@ -1,0 +1,7 @@
+---
+# defaults file for sa-inject-keys
+  keys:
+    - ~/.ssh/id_rsa
+
+  authorized_keys:
+    - ~/.ssh/id_rsa.pub  
