@@ -5,7 +5,7 @@
       - "{{keys | default([])}}"
 
   - name: .SSH | Provision public key to remote
-    copy: src="{{item}}.pi" dest="~/.ssh" owner="{{deploy_user | default(ansible_user_id)}}"  mode=0400
+    copy: src="{{item}}.pub" dest="~/.ssh" owner="{{deploy_user | default(ansible_user_id)}}"  mode=0400
     with_items:
       - "{{keys | default([])}}"
 
